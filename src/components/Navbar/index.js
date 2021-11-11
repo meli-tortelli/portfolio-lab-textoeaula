@@ -30,9 +30,9 @@ export const Navbar = () => {
         </svg>
       </div> */}
       <ul>
-        {navLinks.map((link, index) => {
+        {navLinks.map((link) => {
           return (
-            <li key={index} className={styles.nav_links}>
+            <li key={link.title} className={styles.nav_links}>
               <Link href={link.path}>
                 <a>{link.title}</a>
               </Link>
