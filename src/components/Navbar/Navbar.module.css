@@ -1,0 +1,16 @@
+.nav_wrapper {
+}
+
+.menu-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+}
+
+.nav_links {
+  margin-right: 0.6rem;
+  display: inline-block;
+  align-items: center;
+  font-size: 1.2rem;
+  list-style: none;
+}
