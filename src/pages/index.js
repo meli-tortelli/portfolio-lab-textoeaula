@@ -1,6 +1,12 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
+import Head from 'next/head'
 
 export default function Home() {
-  return <h1>Here we start!</h1>
+  return (
+    <>
+      <Head>
+        <title>Lab.TA - Laboratório Texto e Aula</title>
+      </Head>
+      <h1>Here we start!</h1>
+    </>
+  )
 }

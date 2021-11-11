@@ -39,11 +39,7 @@ class MyDocument extends Document {
             property='og:site_name'
             content='Laboratório Texto e Aula'
           />
-          <meta
-            property='og:image'
-            itemProp='image'
-            content='/public/logo.png'
-          />
+          <meta property='og:image' itemProp='image' content='/logo.png' />
           {/* <meta name="robots" content="noindex,nofollow" /> */}
         </Head>
         <body>
