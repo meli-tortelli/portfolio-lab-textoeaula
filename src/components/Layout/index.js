@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import Header from '../Header'
+import Navbar from '../Navbar'
 import Footer from '../Footer'
 
 import styles from './Layout.module.css'
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <title>Lab.TA - Laboratório Texto e Aula</title>
       </Head>
 
-      <Header />
+      <Navbar />
       <main className={styles.main_content}>{children}</main>
       <Footer />
     </>
