@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import HeroSection from '../components/HeroSection'
+import Testimonials from '../components/TestimonialsSection'
 
 export default function Home() {
   return (
@@ -6,7 +8,8 @@ export default function Home() {
       <Head>
         <title>Lab.TA - Laboratório Texto e Aula</title>
       </Head>
-      <h1>Here we start!</h1>
+      <HeroSection />
+      <Testimonials />
     </>
   )
 }

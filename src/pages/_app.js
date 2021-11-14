@@ -1,10 +1,12 @@
 import '../styles/globals.css'
 import Layout from '../components/Layout'
 
-function MyApp({ children }) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Layout>{children}</Layout>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   )
 }

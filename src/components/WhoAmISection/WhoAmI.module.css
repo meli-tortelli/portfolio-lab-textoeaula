@@ -1,0 +1,28 @@
+.text_about {
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2rem;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+.detail {
+  text-align: left;
+  color: #4a4949;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+  .text_about {
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+}

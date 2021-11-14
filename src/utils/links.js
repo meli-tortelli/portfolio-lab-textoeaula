@@ -5,14 +5,14 @@ export const navLinks = [
   },
   {
     title: 'Quem Sou',
-    path: '/',
+    path: '/quem-sou',
   },
   {
     title: 'Serviços',
-    path: '/',
+    path: '/servicos',
   },
   {
     title: 'Blog',
-    path: '/',
+    path: '/blog',
   },
 ]
