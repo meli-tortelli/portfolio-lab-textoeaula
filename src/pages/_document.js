@@ -11,7 +11,7 @@ class MyDocument extends Document {
       <Html lang='pt-BR'>
         <Head>
           <meta charSet='utf-8' />
-          <link rel='icon' href='/favicon.ico.png' />
+          <link rel='icon' type='image/ico' href='/favicon.ico.png' />
           {/* <link rel="canonical" href="http://localhost:3000/" /> */}
           <meta name='theme-color' content='#0093dd' />
           <meta
