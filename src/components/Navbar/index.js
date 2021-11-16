@@ -66,7 +66,7 @@ export const Navbar = () => {
       <nav>
         <ul
           className={clicked ? menuClasses : styles.nav_menu}
-          onClick={handleClick}
+          onClick={!clicked ? null : handleClick}
         >
           {navLinks.map((link) => {
             return (

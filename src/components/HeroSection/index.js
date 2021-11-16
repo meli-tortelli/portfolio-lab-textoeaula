@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import Button from '../Button'
+
 import styles from './HeroSection.module.css'
 function HeroSection() {
   return (
@@ -14,6 +16,13 @@ function HeroSection() {
           Atendendo pessoas que precisam de auxílio em diversas áreas da
           escrita.
         </span>
+        <div className={styles.see_more_button}>
+          <Button>
+            <Link href='/quem-sou'>
+              <a>Saiba mais</a>
+            </Link>
+          </Button>
+        </div>
       </div>
       <div className={styles.image}>
         <Image
@@ -21,6 +30,7 @@ function HeroSection() {
           width='500'
           height='500'
           alt='Logo Laboratório texto e aula'
+          priority
         />
       </div>
     </section>

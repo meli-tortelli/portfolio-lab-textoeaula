@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
-// import moment from 'moment'
-// import 'moment-timezone'
+import moment from 'moment'
+import 'moment/locale/pt-br'
 
 import styles from './PostContent.module.css'
+import Button from '../Button'
 
 export default function PostsContent({ post }) {
   const { featureImage, title, content, createdAt, tags } = post.fields
 
   console.log(post)
 
-  // moment.locale('pt-br')
-  // const dateFormatted = moment(createdAt).fromNow()
+  const dateFormatted = moment(createdAt).fromNow()
 
   return (
     <section className={styles.post_container}>
@@ -41,13 +41,15 @@ export default function PostsContent({ post }) {
             </span>
           ))}
         </div>
-        <span>{createdAt}</span>
+        <span>{dateFormatted}</span>
       </article>
-      <span className={styles.content_button}>
-        <Link href='/blog'>
-          <a role='button'>Voltar</a>
-        </Link>
-      </span>
+      <div className={styles.content_button}>
+        <Button>
+          <Link href='/blog'>
+            <a role='button'>Voltar</a>
+          </Link>
+        </Button>
+      </div>
     </section>
   )
 }

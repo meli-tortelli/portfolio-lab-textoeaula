@@ -1,15 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
-// import moment from 'moment'
-// import 'moment/locale/pt-br'
+import moment from 'moment'
+import 'moment/locale/pt-br'
 
 import styles from './PostCard.module.css'
 
 export const PostCard = ({ post }) => {
   const { title, slug, description, createdAt, thumbnail } = post.fields
 
-  // moment.locale('pt-br')
-  // const dateFormatted = moment(createdAt).format('L')
+  const dateFormatted = moment(createdAt).format('L')
 
   return (
     <section className={styles.cards_wrapper}>
@@ -33,7 +32,7 @@ export const PostCard = ({ post }) => {
                   <p>{description}</p>
                 </a>
               </Link>
-              <em>{createdAt}</em>
+              <em>{dateFormatted}</em>
             </div>
           </div>
         </article>

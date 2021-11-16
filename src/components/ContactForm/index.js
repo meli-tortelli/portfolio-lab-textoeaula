@@ -35,7 +35,7 @@ function ContactForm() {
   }, 10000)
 
   return (
-    <article className={styles.form_wrapper}>
+    <section className={styles.form_wrapper}>
       <h2>Tem alguma dúvida e gostaria de entrar em contato?</h2>
       <form onSubmit={sendEmail} className={styles.form_group}>
         <label htmlFor='name'>Nome</label>
@@ -83,7 +83,7 @@ function ContactForm() {
           ) : null}
         </span>
       </form>
-    </article>
+    </section>
   )
 }
 

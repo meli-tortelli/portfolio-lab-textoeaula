@@ -1,18 +1,22 @@
 .wrapper {
-  margin: 1rem 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-drection: row;
-  align-items: center;
-  justify-content: space-between;
+  position: relative;
+  height: 500px;
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 450px;
+  grid-template-rows: 1fr;
+  grid-gap: 3rem;
+  align-items: start;
+  justify-content: center;
 }
 
 .banner {
   width: 100%;
-  height: 100vh;
+  margin: 1rem;
+  padding: 1rem;
   display: flex;
-  padding: 0 2rem;
+  right: 0;
+  left: 0;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -27,13 +31,60 @@
 }
 
 .banner > span {
-  margin-top: 1.3rem;
+  margin: 1.1rem;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
+  margin: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+.image {
+  align-self: flex-start;
+  height: 400px;
+  width: 400px;
+}
+
+.see_more_button {
+  align-self: center;
+}
+
+@media screen and (max-width: 595px) {
+  .wrapper {
+    height: 500px;
+  }
   .image {
     display: none;
+  }
+}
+
+@media screen and (max-width: 657px) {
+  .wrapper {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 800px;
+    grid-gap: 1rem;
+  }
+
+  .banner {
+    margin: 1rem;
+  }
+
+  .image {
+    align-self: center;
+    height: 380px;
+    width: 350px;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1066px) {
+  .wrapper {
+    height: 750px;
   }
 }

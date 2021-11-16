@@ -4,6 +4,7 @@ import Navbar from '../Navbar'
 import Footer from '../Footer'
 
 import styles from './Layout.module.css'
+import HeroSection from '../HeroSection'
 
 const Layout = ({ children }) => {
   return (
