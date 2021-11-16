@@ -1,0 +1,46 @@
+.form_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5rem;
+}
+
+.form_wrapper > h1 {
+  margin: 2.5rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.form_group {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-row-gap: 1rem;
+  justify-content: 6 50px;
+  align-items: left;
+  font-size: 1.4rem;
+}
+
+.form_group > label {
+  font-weight: bold;
+}
+
+.form_group > input {
+  height: 2.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid #dcccbf;
+  color: #5a5959;
+  background-color: transparent;
+}
+
+.form_group textarea[name='message'] {
+  resize: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 0 0 1px #dcccbf;
+}
