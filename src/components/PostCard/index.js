@@ -12,7 +12,7 @@ export const PostCard = ({ post }) => {
 
   return (
     <section className={styles.cards_wrapper}>
-      {!post ? null : (
+      {!post === 0 ? null : (
         <article className={styles.card_container}>
           <div className={styles.card_items}>
             <div className={styles.card_image}>
