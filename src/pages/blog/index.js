@@ -11,7 +11,7 @@ export const Blog = ({ posts }) => {
       </Head>
 
       {posts.map((post) => (
-        <PostCard key={post.sys.id} post={post} />
+        <PostCard key={post.fields.title} post={post} />
       ))}
     </>
   )

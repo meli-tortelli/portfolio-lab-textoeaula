@@ -16,7 +16,7 @@ export const BlogPost = ({ post }) => {
           Lab.TA - Laboratório Texto e Aula / {post.fields.title}
         </title>
       </Head>
-      <PostsContent key={post.sys.id} post={post} />
+      <PostsContent key={post.sys.space} post={post} />
     </>
   )
 }
