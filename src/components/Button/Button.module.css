@@ -1,0 +1,29 @@
+.button {
+  background-color: #e6b19d;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  margin: 2rem;
+  color: black;
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.button:hover {
+  box-shadow: -7px -5px 0 black;
+  transition: 0.4s ease-out;
+}
+
+.button:active {
+  background-color: #fff;
+  box-shadow: -7px -5px 0 black;
+  transform: translateY(4px);
+  transition: 0.8s ease-in;
+}
+
+@media screen and (max-width: 789px) {
+  margin: 0;
+  left: 25%;
+}
