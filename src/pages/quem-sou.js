@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ContactForm from '../components/ContactForm'
 import WhoAmI from '../components/WhoAmISection'
 
 export const QuemSou = () => {
@@ -9,6 +10,7 @@ export const QuemSou = () => {
       </Head>
 
       <WhoAmI />
+      <ContactForm />
     </>
   )
 }
