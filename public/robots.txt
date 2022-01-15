@@ -1,12 +1,2 @@
-user-agent: Googlebot
-Allow: *.js
-Allow: *.css
-
-user-agent: *
-Allow: /
-
-user-agent: Googlebot
-user-agent: Googlebot-Image
-user-agent: Mediapartners-Google
-user-agent: Adsbot-Google
+User-agent: *
 Allow: /
