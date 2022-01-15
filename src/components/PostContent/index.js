@@ -33,10 +33,7 @@ export default function PostsContent({ post }) {
         <div className={styles.tags}>
           <p>tags: </p>
           {tags.map((tag) => (
-            <span
-              className={styles.tags_detail}
-              key={post.metadata.tags[0]}
-            >
+            <span className={styles.tags_detail} key={post.fields.slug}>
               {tag}
             </span>
           ))}

@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet='utf-8' />
           <link rel='icon' type='image/ico' href='/favicon.ico.png' />
-          {/* <link rel="canonical" href="http://localhost:3000/" /> */}
+          <link rel='canonical' href='https://labtextoeaula.com.br' />
           <meta name='theme-color' content='#0093dd' />
           <meta
             name='keywords'
@@ -26,21 +26,23 @@ class MyDocument extends Document {
             name='application-name'
             content='Laboratório Texto e Aula'
           />
-          <meta name='author' content='Melissa Tortelli' />
-          <meta name='creator' content='Clado do Prado' />
+          <meta name='author' content='Clara do Prado' />
           <meta property='og:type' content='website' />
-          {/* <meta property="og:url" content="https://www.labtextoeaula.com.br" /> */}
+          <meta
+            property='og:url'
+            content='https://www.labtextoeaula.com.br'
+          />
           <meta property='og:title' content='Laboratório Texto e Aula' />
           <meta
             property='og:description'
-            content='Um espaço que atua com a orientação, organização, revisão e edição textual'
+            content='Um espaço que atua com a orientação, organização, revisão e edição textual.'
           />
           <meta
             property='og:site_name'
             content='Laboratório Texto e Aula'
           />
           <meta property='og:image' itemProp='image' content='/logo.png' />
-          {/* <meta name="robots" content="noindex,nofollow" /> */}
+          <meta name='robots' content='nofollow' />
         </Head>
         <body>
           <Main />
