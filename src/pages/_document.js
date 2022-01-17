@@ -12,12 +12,18 @@ class MyDocument extends Document {
         <Head>
           <meta charSet='utf-8' />
           <link rel='icon' type='image/ico' href='/favicon.ico.png' />
-          <link rel='canonical' href='https://labtextoeaula.com.br/' />
+
+          <link
+            rel='canonical'
+            href='https://labtextoeaula.com.br/quem-sou'
+          />
 
           <meta
             name='google-site-verification'
             content='cE1ZTNQlRDcXuzYhMRmnP5jf3yHq4gMZwckPtwKtMgA'
           />
+          <meta name='robots' content='max-image-preview:standard' />
+          <meta name='googlebot' content='max-snippet:20' />
 
           <meta name='theme-color' content='#0093dd' />
           <meta
@@ -48,7 +54,6 @@ class MyDocument extends Document {
             content='Laboratório Texto e Aula'
           />
           <meta property='og:image' itemProp='image' content='/logo.png' />
-          <meta name='robots' content='nofollow' />
         </Head>
         <body>
           <Main />
