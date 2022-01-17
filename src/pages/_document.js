@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet='utf-8' />
           <link rel='icon' type='image/ico' href='/favicon.ico.png' />
-          <link rel='canonical' href='https://labtextoeaula.com.br' />
+          <link rel='canonical' href='https://labtextoeaula.com.br/' />
 
           <meta
             name='google-site-verification'
@@ -36,7 +36,7 @@ class MyDocument extends Document {
           <meta property='og:type' content='website' />
           <meta
             property='og:url'
-            content='https://www.labtextoeaula.com.br'
+            content='https://labtextoeaula.com.br/'
           />
           <meta property='og:title' content='Laboratório Texto e Aula' />
           <meta
