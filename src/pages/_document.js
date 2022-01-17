@@ -13,6 +13,12 @@ class MyDocument extends Document {
           <meta charSet='utf-8' />
           <link rel='icon' type='image/ico' href='/favicon.ico.png' />
           <link rel='canonical' href='https://labtextoeaula.com.br' />
+
+          <meta
+            name='google-site-verification'
+            content='cE1ZTNQlRDcXuzYhMRmnP5jf3yHq4gMZwckPtwKtMgA'
+          />
+
           <meta name='theme-color' content='#0093dd' />
           <meta
             name='keywords'
